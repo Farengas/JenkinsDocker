@@ -11,9 +11,7 @@
 	<groupId>com.jenkins</groupId>
 	<artifactId>JenkinsDocker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<build>
-		<finalName>docker-jenkins-integration</finalName>
-	</build>
+
 	<name>JenkinsDocker</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -46,6 +44,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>docker-jenkins-integration</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
